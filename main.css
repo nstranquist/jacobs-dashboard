@@ -120,6 +120,7 @@ a {
   background: var(--highlight-color);
   box-shadow: 0 0 2rem rgba(0,0,0,.15);
   max-height: calc(100vh - 3.6rem);
+  max-width: 100%;
 }
 .sidebar-header .heading {
   min-height: 10rem;
@@ -149,6 +150,7 @@ a {
 /*#region NOTES-SIDEBAR */
 .sidebar-notes {
   margin-top: var(--large-margin);
+  max-width: 100%;
 }
 .notes-header {
   display: flex;
@@ -182,8 +184,9 @@ a {
 }
 .form-add-note input {
   display: block;
-  padding: 0 1rem;
+  padding: 0 1.6rem;
   margin: auto;
+  max-width: 100%;
   outline: 1px solid #333;
 }
 .form-add-note input:focus {
