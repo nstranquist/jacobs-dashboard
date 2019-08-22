@@ -115,6 +115,7 @@ a {
 
 /*#region SIDEBAR */
 .sidebar-content {
+  position: relative;
   flex: 1;  /* 25% width */
   max-width: 25%;
   background: var(--highlight-color);
@@ -136,6 +137,7 @@ a {
   color: var(--bg-color);
   padding: 1.6rem;
   width: 100%;
+  max-width: 100%;
   display: inline-block;
   text-align: center;
   border-bottom: 1px solid var(--bg-color);
@@ -145,6 +147,7 @@ a {
 .sidebar-link:focus {
   background: #111;
   border-left: 7px solid var(--action-color);
+  margin-left: -4px; /* keep link center */
 }
 
 /*#region NOTES-SIDEBAR */
@@ -201,6 +204,7 @@ a {
 }
 .note-left {
   display: flex;
+  align-items: center;
   flex: 1;
   padding-left: 1rem;
   cursor: pointer;
@@ -217,8 +221,8 @@ a {
   text-align: center;
 }
 .btn-delete-note {
-  padding: .55rem;
-  padding-left: 1rem;
+  padding: .5rem;
+  padding-left: 1.2rem;
   height: 100%;
   border: 1px solid var(--action-color);
 }
