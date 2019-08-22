@@ -1,0 +1,59 @@
+/****   main.css   ****/
+
+:root {
+  --bg-color: #fff;
+  --font-color: #333;
+}
+
+/* #region RESET */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* sets 1rem to 10px by default */
+  font-family: 'Robotica', sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid rgba(0,0,0,.25);
+}
+body {
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.6rem; /* center text */
+  color: var(--font-color);
+  background: var(--bg-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+/*#endregion RESET */
+.container {
+  padding: 0 1rem;
+}
+.page-header {
+  line-height: 3.6rem;
+  height: 3.6rem;
+  background: var(--font-color);
+  color: var(--bg-color);
+  width: 100%;
+}
+.dashboard-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 3rem);
+  display: flex;
+}
+.sidebar-content {
+  flex: 1;
+  background: rgba(0,0,0,.15);
+  color: #000;
+}
+.main-content {
+  flex: 3;
+}
