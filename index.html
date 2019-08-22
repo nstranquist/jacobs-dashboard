@@ -8,7 +8,6 @@
     <meta name="real estate dashboard" description="a tool for making real
       estate brokerage stuff easier">
     <title>Dashboard - Real Estate</title>
-    <link href="./reset.css" rel="stylesheet">
     <link href="./main.css" rel="stylesheet">
   </head>
   <body>
@@ -22,11 +21,35 @@
       </ul>
     </header>
     <main class="dashboard-container">
-      <aside class="sidebar-content container section">
-        sidebar
+      <aside class="sidebar-content section">
+        <header class="sidebar-header">
+          <h3 class="heading">Actions</h3>
+        </header>
+        <section class="sidebar-actions">
+          <ul class="sidebar-actions-list">
+            <li><a class="sidebar-link" href="#">Action</a></li>
+            <li><a class="sidebar-link" href="#">Action</a></li>
+            <li><a class="sidebar-link" href="#">Action</a></li>
+            <li><a class="sidebar-link" href="#">Action</a></li>
+            <li><a class="sidebar-link" href="#">Action</a></li>
+          </ul>
+        </section>
+        <section class="sidebar-notes">
+          <header class="notes-header noselect">
+            <div class="btn btn-add-note" id="btn-add-note">+</div>
+            <h3 class="heading">Notes</h3>
+          </header>
+          <form action="" id="form-add-note" class="form-add-note active">
+            <input type="text" name="note-body" id="note-body">
+          </form>
+          <div class="notes-container" id="notes-container">
+          </div>
+        </section>
       </aside>
       <div class="main-content container section">
-        content here
+        <header>
+          <h3 class="heading">Content Here</h3>
+        </header>
       </div>
     </main>
 
