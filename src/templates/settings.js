@@ -1,5 +1,10 @@
+// imports
+import headerContent from '../components/content-header';
+
+
+// template
 const settingsTemplate = `
-  <h1>Settings Template</h1>
+  ${headerContent('Settings')}
 `;
 
 export default settingsTemplate;

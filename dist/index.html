@@ -8,6 +8,8 @@
     <meta name="real estate dashboard" description="a tool for making real
       estate brokerage stuff easier">
     <title>Dashboard - Real Estate</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="./main.css" rel="stylesheet">
   </head>
   <body>
@@ -44,13 +46,36 @@
               placeholder="Note...">
           </form>
           <div class="notes-container" id="notes-container">
+            <!-- Consider using local storage to save these? -->
           </div>
         </section>
       </aside>
       <div class="main-content container section" id="content">
         <header>
-          <h3 class="heading">Content Here</h3>
+          <h3 class="heading">Your Investors</h3>
         </header>
+        <!--Here, I want the same thing, except in ListView instead of Grid-->
+        <!--And Different filters, perhaps?-->
+        <section class="investors-content">
+          <article class="toolbar">
+            <ul class="toolbar-left">
+              <li class="toolbar-item" id="add-investor"><i class="fa fa-plus"></i>Create</li>
+              <li class="toolbar-item" id="edit-investor"><i class="fa
+                  fa-pencil"></i>Edit</li>
+              <li class="toolbar-item" id="delete-investor"><i class="fa
+                  fa-trash"></i>Delete</li>
+            </ul>
+            <div class="toolbar-right">
+              Filter: <select name="filter-properties" id="filter-properties">
+                <option value="0">Name</option>
+                <option value="1">Type</option>
+                <option value="2">Price</option>
+                <option value="3">Location</option>
+              </select>
+            </div>
+          </article>
+
+        </section>
       </div>
     </main>
 

@@ -1,5 +1,9 @@
+// imports
+import headerContent from '../components/content-header';
+
+// template
 const feedbackTemplate = `
-  <h1>Feedback Template</h1>
+  ${headerContent('Any Feedback?')}
 `;
 
 export default feedbackTemplate;

@@ -1,5 +1,12 @@
+// imports
+import headerContent from '../components/content-header';
+import propertyToolbar from '../components/properties/property-toolbar';
+
+// template
 const investorsTemplate = `
-  <h1>Investors Template</h1>
+  ${headerContent('Your Investors')}
+  ${propertyToolbar('investor')}
+  
 `;
 
 export default investorsTemplate;

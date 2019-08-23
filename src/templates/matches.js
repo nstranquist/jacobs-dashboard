@@ -1,5 +1,9 @@
+// imports
+import headerContent from '../components/content-header';
+
+// template
 const matchesTemplate = `
-  <h1>Matches Template</h1>
+  ${headerContent('Your Matches')}
 `;
 
 export default matchesTemplate;
