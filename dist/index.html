@@ -26,12 +26,12 @@
           <h3 class="heading">Actions</h3>
         </header>
         <section class="sidebar-actions">
-          <ul class="sidebar-actions-list">
-            <li><a class="sidebar-link" onclick="render(propertiesTemplate)">Properties</a></li>
-            <li><a class="sidebar-link" onclick="render(investorsTemplate)">Investors</a></li>
-            <li><a class="sidebar-link" onclick="render(matchesTemplate)">Matches</a></li>
-            <li><a class="sidebar-link" onclick="render(settingsTemplate)">Settings</a></li>
-            <li><a class="sidebar-link" onclick="render(feedbackTemplate)">Feedback</a></li>
+          <ul class="sidebar-actions-list" id="actions-list">
+            <li><a class="sidebar-link" id="propertiesLink">Properties</a></li>
+            <li><a class="sidebar-link" id="investorsLink">Investors</a></li>
+            <li><a class="sidebar-link" id="matchesLink">Matches</a></li>
+            <li><a class="sidebar-link" id="settingsLink">Settings</a></li>
+            <li><a class="sidebar-link" id="feedbackLink">Feedback</a></li>
           </ul>
         </section>
         <section class="sidebar-notes">
@@ -54,7 +54,9 @@
       </div>
     </main>
 
-    <script src="./index.js"></script>
-    <script src="./components/notes.js"></script>
+    <script src="./bundle.js"></script>
+    <script>
+    
+    </script>
   </body>
 </html>
