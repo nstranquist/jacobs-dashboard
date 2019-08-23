@@ -8,7 +8,20 @@ const propertiesTemplate = `
   ${headerContent('Your Properties')}
   ${propertyToolbar('property')}
   <article class="properties-grid">
-    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful or should I say horrible property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('NewPropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
+    ${newPropertyItem('PropName', 'Here is some descriptive text to describe this wonderful dare I say magnificent property')}
   </article>
 `;
 
